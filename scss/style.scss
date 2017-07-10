@@ -1,0 +1,100 @@
+@import "variables";
+*{
+	box-sizing:border-box;}
+.myMargin{
+	margin: 0 100px;
+	position: relative;
+
+}
+.myMargin{
+	margin: 0 100px;
+	clear: both;
+	padding:0;
+	h1,h3{	
+		margin-top: 10px;
+	}
+}
+.related{
+	 margin: 15px 80px;
+}
+@media(max-width: 991px){
+	.myMargin{
+	margin: 0 60px;
+	}
+	.related{
+	 margin: 15px 60px;
+	}
+}
+@media(max-width: 767px){
+	.myMargin{
+	margin: 0 5px;
+	}
+	.related{
+	 margin: 15px 0px;
+	}
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: $blue;
+  color: #fff;
+}
+.page-header{
+   
+  border-bottom: 1px solid $blue;
+  color: $blue;
+  font-weight: bold;
+}
+
+
+h3{
+  color: $blue;
+  font-weight: bold;
+}
+img.yoga{
+	margin:15px -15px 30px;
+}
+@media(max-width:991px){
+	img.yoga{
+	margin:20px 0;
+	padding:0;
+}
+}
+.description{
+	margin:5px -15px;
+}
+@media(min-width:992px){
+	.description{
+		padding: 20px;
+    margin: 10px;
+	}
+}
+.cardio{
+	background-color:$red;
+}
+.fitness{
+	background-color:$blue;
+}
+.zoomba{
+	background-color:$orange;
+}
+.bootcamp{
+	background-color:$green;
+}
+a p{
+	text-align: center;
+	font-weight:bold;
+	color: white;
+	padding:8px 0 6px 0;
+	margin:0;
+
+}
+
+footer.myMargin{
+	background-color:$grey;
+	padding: 10px 20px;
+	p{
+		color: white;
+		font-weight: bold;
+	}
+}
